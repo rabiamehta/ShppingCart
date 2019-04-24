@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src='jquery.js'></script>
+    <script src='addUser.js'></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark col-12" style="height: 9vh">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <button class="btn btn-dark m-2" disabled><i class="fab fa-dyalog fa-2x"
+                        style="color: white"></i></button>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-dark m-2" id="vendors">Manage Vendors</button>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-dark m-2" id="products">Manage Products</button>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-dark m-2" id="userLogin">User Login</button>
+            </li>
+        </ul>
+    </nav>
+    <div class="bgimg container-fluid text-center row col-12" style="color: white;">
+        <div class="col-2"></div>
+        <div class="col-8" style="background: rgb(0,0,0,0.5)">
+            <h1 class="col-12">User Login</h1>
+
+            <div class="input-group mb-3" style="margin-left: 150px">
+                <div class="input-group-prepend">
+                    <span class="input-group-text form-control">User Name</span>
+                </div>
+                <div class="">
+                    <input type="text" class="form-control" id='userName' placeholder='Enter User Name'
+                        style="width: 500px">
+                </div>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-light" type="submit" id="loginUser" style="width:70px">Login</span>
+                </div>
+            </div>
+            <div id="ProductCards" class="row" style="margin-left: 60px" >
+
+            </div>
+            <div id="mainDiv" class="text-center">
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="text-center center-block" style="background-color:black;">
+        <i id="social-fb" class="fab fa-facebook-square fa-3x social" style="color:white"></i>
+        <i id="social-tw" class="fab fa-twitter-square fa-3x social" style="color:white"></i>
+        <i id="social-gp" class="fab fa-google-plus-square fa-3x social" style="color:white"></i>
+        <i id="social-em" class="fa fa-envelope-square fa-3x social" style="color:white"></i>
+    </div>
+</body>
+
+</html>
