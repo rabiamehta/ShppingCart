@@ -3,6 +3,7 @@
 ![My Cart](https://github.com/rabiamehta/ShppingCart/blob/master/public/screenshots/UserLogin/page3.png)
 ![My Cart](https://github.com/rabiamehta/ShppingCart/blob/master/public/screenshots/addProducts.png)
 ![My Cart](https://github.com/rabiamehta/ShppingCart/blob/master/public/screenshots/addVendors.png)
+![My Cart](https://github.com/rabiamehta/ShppingCart/blob/master/public/screenshots/viewCart.png)
 
 # see screenshots folder for other pics
 
